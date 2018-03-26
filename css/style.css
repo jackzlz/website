@@ -21,7 +21,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 /*-- header_top --*/
-.top_bg{
+.top_bg{	
 	background: #00405d;
 }
 .header_top{
@@ -1278,13 +1278,13 @@ list-style: none;
    -ms-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;
 }
-.view-fifth:hover .mask {
+/* .view-fifth:hover .mask {
    -webkit-transform: translateX(0px);
    -moz-transform: translateX(0px);
    -o-transform: translateX(0px);
    -ms-transform: translateX(0px);
    transform: translateX(0px);
-}
+} */
 .view1{
    overflow: hidden;
    position: relative;
