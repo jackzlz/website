@@ -37,6 +37,27 @@ Vue.component('header-component', {
 </div>`
   });
 
+
 new Vue({
-    el: '#header'
+    el: '#app',
+
+    data:{
+        productList:[
+            {code:'w1',name:'DUIS AUTEMCC',imgUrl:'images/w1.jpg',price:'499',desc:'this is a desc text.'},
+            {code:'w2',name:'DUIS AUTEMUU',imgUrl:'images/w2.jpg',price:'500',desc:'this is a desc text.'},
+            {code:'w3',name:'DUIS AUTEMXX',imgUrl:'images/w3.jpg',price:'600',desc:'this is a desc text.'},
+            {code:'w4',name:'DUIS AUTEMFF',imgUrl:'images/w4.jpg',price:'700',desc:'this is a desc text.'},
+            {code:'w4',name:'DUIS AUTEMFF',imgUrl:'images/w4.jpg',price:'700',desc:'this is a desc text.'},
+        ]
+
+    },
+    computed:{
+        rows:function() {
+            return 2;
+        },
+
+        columns:function(){
+            return 4;
+        }
+    }
 });  
