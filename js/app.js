@@ -81,6 +81,13 @@ var v = new Vue({
                 { code: 'w4', name: 'DUIS AUTEMFF', imgUrl: 'images/w4.jpg', price: '700', desc: 'this is a desc text.' },
             ];
             this.groups=['WOMEN', 'NEW ARRIVALS'];
+        },
+        groupClick:function(group,event){
+            event.stopPropagation();
+            alert(group);
+
         }
+
+
     }
 });  

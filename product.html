@@ -58,7 +58,7 @@
 		<div class="w_nav1">
 			<h4>All</h4>
 			<ul>
-				<li v-for="group in groups"><a href="women.html">{{group}}</a></li>
+				<li v-for="group in groups"><a href="#" v-on:click="groupClick(group,$event)">{{group}}</a></li>
 			</ul>	
 		</div>
 		
